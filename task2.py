@@ -22,7 +22,6 @@ data.columns = [
     'Estimated_Labour_Participation_Rate',
     'Region'
 ]
-
 data['Date'] = pd.to_datetime(data['Date'])
 
 print("\nStatistical Summary:\n")
