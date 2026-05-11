@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 data = pd.read_csv(r"C:\Users\Aryan\Downloads\archive\Unemployment in India.csv")
 print("First 5 Rows of Dataset:\n")
 print(data.head())
-
 print("\nDataset Information:\n")
 print(data.info())
 
