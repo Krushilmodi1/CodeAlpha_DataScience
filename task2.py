@@ -25,7 +25,6 @@ data.columns = [
 
 data['Date'] = pd.to_datetime(data['Date'])
 
-# Step 9: Statistical Summary
 print("\nStatistical Summary:\n")
 print(data.describe())
 
@@ -66,7 +65,6 @@ plt.show()
 
 data['Month'] = data['Date'].dt.month
 
-# Step 14: Monthly Average Unemployment
 monthly_avg = data.groupby('Month')[
     'Estimated_Unemployment_Rate'
 ].mean()
